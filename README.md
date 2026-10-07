@@ -12,6 +12,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/SenjuWoo/ai-prompt-library/actions/workflows/ci.yml"><img src="https://github.com/SenjuWoo/ai-prompt-library/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-7b8cff?labelColor=0d0f11" alt="MIT License"></a>
   <img src="https://img.shields.io/badge/format-markdown%20%2B%20PDF-8f9aa6?labelColor=0d0f11" alt="Markdown + PDF">
 </p>
@@ -70,10 +71,10 @@ Verified in this tree:
 - One SKSE review prompt (`.txt`)
 - MIT license file
 
+CI checks those files on every push.
+
 Not claimed:
 
-- A CI workflow (there is none in this repository)
-- A versioned GitHub release
 - That a given model will obey the contract without retries
 - Runtime tests; these are prompts, not programs
 
